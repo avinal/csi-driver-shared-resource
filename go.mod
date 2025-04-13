@@ -1,6 +1,8 @@
 module github.com/openshift/csi-driver-shared-resource
 
-go 1.19
+go 1.22.0
+
+toolchain go1.22.9
 
 require (
 	github.com/container-storage-interface/spec v1.8.0
@@ -9,7 +11,7 @@ require (
 	github.com/openshift/api v0.0.0-20230711095040-ca06f4a23b64
 	github.com/openshift/client-go v0.0.0-20230705133330-7f808ad59404
 	github.com/prometheus/client_golang v1.16.0
-	github.com/prometheus/client_model v0.4.0
+	github.com/prometheus/client_model v0.6.2
 	github.com/prometheus/common v0.44.0
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
@@ -85,7 +87,7 @@ require (
 	gomodules.xyz/jsonpatch/v2 v2.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
-	google.golang.org/protobuf v1.30.0 // indirect
+	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/apiserver v0.27.3 // indirect
